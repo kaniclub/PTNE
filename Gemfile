@@ -54,6 +54,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # アカウント管理
-  gem 'devise'
-  gem 'cancancan'
-  gem 'rails_admin'
+gem 'devise'
+gem 'cancancan'
+gem 'rails_admin'
+
+
+# bootstrap Honoka
+gem 'sass-rails', '~> 5.0'
+gem 'honoka-rails', '>= 3.3.6.3'
